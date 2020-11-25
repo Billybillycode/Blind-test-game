@@ -32,3 +32,38 @@
 
 //Creer l'objet accueillant les musics
 
+
+//bonus je fais une class Musique qui regroupera les 4 types (film, rap, dance, variete)
+// class Music {
+//     constructor(name, song) {
+//         this.name = name;
+//         this.song = song;
+//     }
+
+// }
+
+// je fais une class qui accueille les musiques
+class Music {
+        constructor(name, song) {
+            this.name = name;
+            this.song = song;
+        }
+}
+
+let music2 = new Music('Saian Supa Crew','Angela')
+let music3 = new Music('Sniper', 'Gravé dans la roche')
+let music4 = new Music('Ricky Martins', 'Maria')
+let music5 = new Music('Aqua', 'Barbie Girl')
+let music6 = new Music('Lunatic', 'La lette')
+
+
+let array = [];
+array.push = ['music2', 'music3', 'music4', 'music5', 'music6'];
+
+
+// faire un array avec les musiques l'une après l'autre
+// function après cette étape hire function
+console.log(Music)
+console.log(music4)
+console.log(array)
+console.log(array[0])
