@@ -1,7 +1,8 @@
-// let rap = [];
-// let variété = [];
-// let dance = [];
 
+  // - - - - - Mettre chaque effet dans une page différente
+
+
+// - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 
 // Qu'est-ce que je veux ?
 
 // 1) regrouper les musiques dans un objet
@@ -29,18 +30,9 @@
 
 
 
-
+// - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 
 //Creer l'objet accueillant les musics
 
-
-//bonus je fais une class Musique qui regroupera les 4 types (film, rap, dance, variete)
-// class Music {
-//     constructor(name, song) {
-//         this.name = name;
-//         this.song = song;
-//     }
-
-// }
 
 // je fais une class qui accueille les musiques
 class Music {
@@ -67,3 +59,28 @@ console.log(Music)
 console.log(music4)
 console.log(array)
 console.log(array[0])
+
+// - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 
+
+
+// - - - - - - - -- btn
+let btn1 = document.getElementById('btn1');
+let Btn2 = document.getElementById('btn2');
+let Btn3 = document.getElementById('btn3');
+
+
+btn1.addEventListener("click", function() {
+    console.log(document.getElementById("btn1"))
+  });
+btn1.addEventListener("click", function() {
+    console.log(document.getElementById("btn2"))
+  });
+btn1.addEventListener("click", function() {
+    console.log(document.getElementById("btn3"))
+  });
+
+// - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 
+
+
+
+
