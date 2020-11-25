@@ -4,7 +4,7 @@
 
 // Qu'est-ce que je veux ?
 
-// 1) regrouper les musiques dans un tableau
+// 1) regrouper les musiques dans un objet
 
 // 2)Display les musiques a partir du moment où l'on commence
 //  2bis) Si j'ai le temps, les displays de manière aléatoire
@@ -20,8 +20,15 @@
 // un seul essai, ça sera plus simple, le but étant de réussir à toutes les musiques pour avancer, sinon on recommence
         // si cette option choisi, les display de manière aléatoire devient plus interressant
 
-// 6) réaliser un timer qui démarre au commencement de la musique (définir le temps)
+// 6Bonus) Réaliser un timer qui démarre au commencement de la musique (définir le temps)
 //      soit :
 //          si temps écoulé, perdu...
+//          si reponse good, reset timer pour la prochaine musique
 
+// design un objet avec vette
+
+
+
+
+//Creer l'objet accueillant les musics
 
