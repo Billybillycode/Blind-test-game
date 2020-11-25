@@ -36,12 +36,14 @@
 
 // je fais une class qui accueille les musiques
 class Music {
-        constructor(name, song) {
+        constructor(name, song, src) {
             this.name = name;
             this.song = song;
+            this.src = src;
         }
 }
 
+let music1 = new Music('Gala','Freed from disire')
 let music2 = new Music('Saian Supa Crew','Angela')
 let music3 = new Music('Sniper', 'Gravé dans la roche')
 let music4 = new Music('Ricky Martins', 'Maria')
@@ -49,16 +51,29 @@ let music5 = new Music('Aqua', 'Barbie Girl')
 let music6 = new Music('Lunatic', 'La lette')
 
 
-let array = [];
-array.push = ['music2', 'music3', 'music4', 'music5', 'music6'];
+let arrayMusic = ['music2', 'music3', 'music4', 'music5', 'music6'];
+function randomArray(arrayMusic) {
+    arrayMusic.sort(() => Math.random() - 0.5);
+}
 
+randomArray(arrayMusic)
+    // YESSSS !!!!!
+
+console.log(arrayMusic)
+
+console.log(" - - -- - -- - ")
+
+
+//let randomArrayMusic = arrayMusic[Math.floor(Math.random()*arrayMusic.length)];
+
+console.log(" - - - - - - - - ")
+//console.log(randomArrayMusic)
 
 // faire un array avec les musiques l'une après l'autre
 // function après cette étape hire function
 console.log(Music)
 console.log(music4)
-console.log(array)
-console.log(array[0])
+console.log(arrayMusic)
 
 // - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 
 
@@ -81,6 +96,31 @@ btn1.addEventListener("click", function() {
 
 // - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 
 
+//afficher le nom des musique sur les boutons
+// - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 
+// faire démarer le player avec start
+
+let startClick = document.getElementById("startClick");
+startClick.addEventListener("click", function() {
+    console.log(shuffleMusic)
+})
 
 
 
+        
+
+
+    //
+
+
+//je veux que start aille piocher dans les music
+//je vais faire une fonction pour ça.
+
+
+
+
+// - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 
+
+// 
+
+// - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 

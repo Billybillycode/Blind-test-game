@@ -1,0 +1,13 @@
+ body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url(/img/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ 
