@@ -41,31 +41,13 @@ c
 
 
 // - - - - - - - -- btn
-let btn1 = document.getElementById('btn1');
-let Btn2 = document.getElementById('btn2');
-let Btn3 = document.getElementById('btn3');
 
-
-btn1.addEventListener("click", function() {
-    console.log(document.getElementById("btn1"))
-  });
-btn1.addEventListener("click", function() {
-    console.log(document.getElementById("btn2"))
-  });
-btn1.addEventListener("click", function() {
-    console.log(document.getElementById("btn3"))
-  });
 
 // - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 
 
 //afficher le nom des musique sur les boutons
 // - - - - - -- - - - - - - - - - -  - - - - - - - - - - - - - - - - - -  -- - - - - - - - - - 
-// faire démarer le player avec start
 
-let startClick = document.getElementById("startClick");
-startClick.addEventListener("click", function() {
-  
-})
 
 
 
