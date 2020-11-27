@@ -16,6 +16,9 @@ choiceBtns.forEach((btn) => {
 //start blind test btn
 // faire démarer le player avec start
 
+
+
+
 export const listenStartButton = (callback) => {
   document.getElementById("startClick").addEventListener("click", callback);
 }

@@ -30,7 +30,6 @@ export function randomizeArray(arrayMusic) {
 
 function pickCurrentSong() {}
 
-const fruits = [1, 2, 3]
 
 export function pickOtherRandomSongs(arrayMusic, currentSong) {
   const randomSongs = [];
@@ -42,6 +41,13 @@ export function pickOtherRandomSongs(arrayMusic, currentSong) {
 
   return randomSongs;
 }
+
+
+// export function showAnswersInButton(randomSongs) {
+//   document.getElementById("btn1").innerHTML = randomSongs[0]
+// }
+
+
 
 randomizeArray(musics);
 

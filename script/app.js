@@ -12,19 +12,32 @@ let round = 0;
 // Qu'est-ce que je veux ?
 function startRound() {
   currentMusic = currentMusics[round];
-  document.getElementById("appear").innerHTML = "todo todo";
+  //document.getElementById("appear").innerHTML = "todo todo";
   // 1 play Music
   //currentMusic.play();
   // 2 afficher reponses possibles ???
   const randos = pickOtherRandomSongs(currentMusics, currentMusic);
   console.log([currentMusic.name, ...randos]);
   // utiliser les randos en inner hMl
+document.getElementById("btn1").innerHTML = randos[0]
+document.getElementById("btn2").innerHTML = randos[1]
+document.getElementById("btn3").innerHTML = currentMusic.name
   // 3 ecouter click btn
+  
+  function listenAnswerButton(btn1, btn2, btn3) {
+
+  }
   // si rep clickee == currentMusic.name : win
   // else loose
 }
 
 listenStartButton(startRound);
+
+
+
+
+
+
 
 // 1) regrouper les musiques dans un objet
 
