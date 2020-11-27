@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="/script/dom.js"></script>
+    <script type="module" src="/script/app.js"></script>
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Rap page</title>
+    <title>Blind Test</title>
   </head>
   <body>
     <div>
@@ -23,12 +23,13 @@
           <!-- penser à hide les audio -->
           <audio
         controls
-        src="../musique/GALA - Freed from desire [Official video HD].mp3">
+        id="audio-player"
+        src="./musique/GALA-freed-from-desire.mp3">
             Your browser does not support the
             <code>audio</code> element.
     </audio>
         </div>
-        <div class="container">
+        <div id="appear" class="container">
           <button class="appear" id="btn1">Choice</button>
           <button class="appear" id="btn2">Choice</button>
           <button class="appear" id="btn3">Choice</button>
